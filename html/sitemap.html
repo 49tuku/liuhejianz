@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网站搭建网站开发友情连接</title>
+</head>
+<body>
+
+<ul>
+    {volist name="sites" id="val"}
+    <li><a href="{$val.url}">{$val.name}</a> </li>
+    {/volist}
+</ul>
+
+</body>
+</html>
